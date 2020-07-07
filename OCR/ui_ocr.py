@@ -49,12 +49,15 @@ class ReadFileApp:
         ttk.Button(master, text = "Quit",
                    command = master.destroy).grid(row = 4, column = 2)
         
+        self.label = ttk.Label(master, text = "Status:")
+        self.label.grid(row = 5, column = 2) 
+        
         
     def select_file(self):
             self.filename = filedialog.askopenfilename(initialdir=".")
             self.infile = open(self.filename, "r")
             self.label_3 = ttk.Label(None, text = self.infile.name)
-            self.label_3.grid(row = 5, column = 2)
+            self.label_3.grid(row = 6, column = 2)
             
     def mouse_crop(self, event, x, y, flags, param):
 
@@ -106,7 +109,7 @@ class ReadFileApp:
                             break
                     cv2.destroyAllWindows()
                     self.label_1 = ttk.Label(None, text = "Image Cropped")
-                    self.label_1.grid(row = 6, column = 2)
+                    self.label_1.grid(row = 7, column = 2)
                 else:
                     messagebox.showinfo('Return','You will now return to the application screen')
                 self.MsgBox = messagebox.askquestion('Image Invert','Do you want to invert the image',icon = 'warning')
@@ -120,7 +123,7 @@ class ReadFileApp:
                         self.label_1.configure(None, text = "Text Extracted")
                     except AttributeError:
                         self.label_1 = ttk.Label(None, text = "Text Extracted")
-                    self.label_1.grid(row = 6, column = 2)
+                    self.label_1.grid(row = 7, column = 2)
                 else:
                     messagebox.showinfo('Return','You will now return to the application screen')
                 self.tex = pytesseract.image_to_string(self.im_bw, lang = 'eng')   
@@ -128,13 +131,13 @@ class ReadFileApp:
                     self.label_1.configure(None, text = "Text Extracted")
                 except AttributeError:
                     self.label_1 = ttk.Label(None, text = "Text Extracted")
-                self.label_1.grid(row = 6, column = 2)
+                self.label_1.grid(row = 7, column = 2)
         except AttributeError:
              self.label_1 = ttk.Label(None, text = "Please Provide An Image", foreground = "red")
-             self.label_1.grid(row = 7, column = 2)
+             self.label_1.grid(row = 8, column = 2)
         except:
              self.label_1 = ttk.Label(None, text = "Something went wrong..!!", foreground = "red")
-             self.label_1.grid(row = 7, column = 2)
+             self.label_1.grid(row = 8, column = 2)
 
                 
         
@@ -147,10 +150,10 @@ class ReadFileApp:
                 self.label_3.destroy()
         except AttributeError:
             self.label_1 = ttk.Label(None, text = "Label Not Yet Created", foreground = "red")
-            self.label_1.grid(row = 7, column = 2)
+            self.label_1.grid(row = 8, column = 2)
         except:
             self.label_1 = ttk.Label(None, text = "Something went wrong..!!", foreground = "red")
-            self.label_1.grid(row = 7, column = 2)
+            self.label_1.grid(row = 8, column = 2)
         
                 
     def write_files(self):
@@ -166,7 +169,7 @@ class ReadFileApp:
                      self.label_1.configure(None, text = "File Saved")
                  except AttributeError:
                     self.label_1 = ttk.Label(None, text = "File Saved")
-                 self.label_1.grid(row = 6, column = 2)
+                 self.label_1.grid(row = 7, column = 2)
              self.msgBox = messagebox.askquestion('Quit','Do you want to quit',icon = 'warning')
              if self.msgBox == 'yes':
                    self.master.destroy()
@@ -175,18 +178,25 @@ class ReadFileApp:
                     self.clear_widget()
         except AttributeError:            
              self.label_1 = ttk.Label(None, text = "Nothing To Save", foreground = "red")
-             self.label_1.grid(row = 7, column = 2)
+             self.label_1.grid(row = 8, column = 2)
 
         except:
              self.label_1 = ttk.Label(None, text = "Something went wrong..!!", foreground = "red")
-             self.label_1.grid(row = 7, column = 2)
+             self.label_1.grid(row = 8, column = 2)
 
 
                     
 
 def main():              
     main = Tk()
-    main.geometry('500x500')
+    ws = main.winfo_screenwidth()
+    hs = main.winfo_screenheight()
+    w = 500
+    h = 500
+    x = int(ws/2 - w/2)
+    y = int(hs/2 - h/2)
+    data = str(w)+"x"+str(h)+"+"+str(x)+"+"+str(y)
+    main.geometry(data)
     main.title("OCR Application")
     main.iconbitmap(default='C:\\Users\\rkhat\\Downloads\\icon.ico')
     app = ReadFileApp(main)
