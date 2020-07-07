@@ -188,7 +188,7 @@ def main():
     main = Tk()
     main.geometry('500x500')
     main.title("OCR Application")
-    main.iconbitmap(default='C:\\Users\\rkhat\\Downloads\\o.ico')
+    main.iconbitmap(default='C:\\Users\\rkhat\\Downloads\\icon.ico')
     app = ReadFileApp(main)
     main.mainloop()
     
