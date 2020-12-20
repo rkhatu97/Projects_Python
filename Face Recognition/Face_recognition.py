@@ -39,7 +39,7 @@ for layer in vgg.layers:
 folders = glob('D:/Spyder/Images/Train/*')
   
 
-# our layers - you can add more if you want
+#layers 
 x = Flatten()(vgg.output)
 # x = Dense(1000, activation='relu')(x)
 prediction = Dense(len(folders), activation='softmax')(x)
