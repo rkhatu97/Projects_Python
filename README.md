@@ -12,6 +12,9 @@
     <img src="https://github.com/rkhatu97/Projects_Python/blob/master/Credit_card_fraud_detection/GBM.png" />
 </p>
 <p>Random Forest Classifier</p>
+<p>
+    <img src="https://github.com/rkhatu97/Projects_Python/blob/master/Credit_card_fraud_detection/random_forest.png" />
+</p>
 
 
 
