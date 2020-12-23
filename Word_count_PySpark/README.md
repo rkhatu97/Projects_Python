@@ -11,7 +11,7 @@
 <p>c)	Which word occurs the fewest times? How many time does the word occur?</p>
 <p>“Graphs” is the word that appears fewest times, it occurs 1 time only.</p>
 <p>
-    <img src="https://github.com/rkhatu97/Projects_Python/blob/master/Credit_card_fraud_detection/random_forest.png" />
+    <img src="https://github.com/rkhatu97/Projects_Python/blob/master/Word_count_PySpark/spark_session.png" />
 </p>
 
 
