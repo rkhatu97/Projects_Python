@@ -6,4 +6,4 @@
 <p>Logistic Regression</p>
 <p>Random Forest Classifier</p>
 <p>Gradient Boosting</p>
-
+![logistic_regression](https://user-images.githubusercontent.com/65479580/103025289-7ee26100-451f-11eb-9874-7a27076bf7a3.png)
