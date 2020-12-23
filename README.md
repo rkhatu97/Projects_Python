@@ -27,6 +27,9 @@
 <p>“Spark” is the most common word in the file, and it appears 38 times.</p>
 <p>c)	Which word occurs the fewest times? How many time does the word occur?</p>
 <p>“Graphs” is the word that appears fewest times, it occurs 1 time only.</p>
+<p>
+    <img src="https://github.com/rkhatu97/Projects_Python/blob/master/spark_session.png" />
+</p>
 
 
 
