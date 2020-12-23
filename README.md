@@ -6,4 +6,6 @@
 <p>Logistic Regression</p>
 <p>Random Forest Classifier</p>
 <p>Gradient Boosting</p>
-![logistic_regression](https://github.com/rkhatu97/Projects_Python/blob/master/logistic_regression.png)
+<p>
+    <img src="https://github.com/rkhatu97/Projects_Python/blob/master/Credit_card_fraud_detection/logistic_regression.png" />
+</p>
