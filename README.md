@@ -5,5 +5,5 @@
 <p>Model Used:</p>
 <p>Logistic Regression</p>
 <p>Random Forest Classifier</p>
-<pGradient Boosting</p>
+<p>Gradient Boosting</p>
 ![](https://github.com/rkhatu97/Projects_Python/blob/master/Credit_card_fraud_detection/logistic_regression.png)
