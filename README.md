@@ -6,4 +6,4 @@
 <p>Logistic Regression</p>
 <p>Random Forest Classifier</p>
 <p>Gradient Boosting</p>
-![logistic](./Credit card fraud detection/logistic_regression.png)
+![logistic](/Credit card fraud detection/logistic_regression.png)
