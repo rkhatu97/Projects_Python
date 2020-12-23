@@ -15,7 +15,7 @@
 <p>
     <img src="https://github.com/rkhatu97/Projects_Python/blob/master/Credit_card_fraud_detection/random_forest.png" />
 </p>
-<h3> Word Count Using PySpark</h3>
+<h2> Word Count Using PySpark</h2>
 <p>PySpark package was used to import Sparksession. Sparksession was initialized with application name word-count.</p>
 <p>Using sparksession.read.test() README.md file was imported from HDFS, various SQL function were imported form pyspark package like regexp_replace, trim, col, and lower using this the punctuation in the file were removed.</p>
 <p>Further, functions like split and explode were used to bring one word per line orientation.</p>
