@@ -16,3 +16,8 @@ Created projects using Python.
 <p><b>IDE:</b> Jupyter</p>
 <p><b>Packages:</b></p>
 <p>PySpark</p>
+<h2>Sentiment Analysis</h2>
+<p><b>IDE:</b> Spyder</p>
+<p><b>Packages:</b></p>
+<p>Flask, pickle, requests, random, json, sklearn</p>
+<p><b>Web Development:</b> HTML, CSS</p>
