@@ -12,3 +12,7 @@ Created projects using Python.
 <p>IDE: Spyder</p>
 <p>Packages:</p>
 <p>cv2, tkinter, pytesseract</p>
+<h2>Word Count</h2>
+<p>IDE: Jupyter</p>
+<p>Packages:</p>
+<p>PySpark</p>
