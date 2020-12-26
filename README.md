@@ -25,3 +25,7 @@ Created projects using Python.
 <p><b>IDE:</b> Jupyter</p>
 <p><b>Packages:</b></p>
 <p>Pandas, hdfs, pyspark, matplotlib, seaborn, simplejson, numpy, sklearn, imblearn, timeit, xgboost, keras, tensorflow</p>
+<h2>Web Scrapping</h2>
+<p><b>IDE:</b> Jupyter</p>
+<p><b>Packages:</b></p>
+<p>bs4, numpy, pandas, urllib</p>
