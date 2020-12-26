@@ -21,3 +21,7 @@ Created projects using Python.
 <p><b>Packages:</b></p>
 <p>Flask, pickle, requests, random, json, sklearn</p>
 <p><b>Web Development:</b> HTML, CSS</p>
+<h2>Health Insurance Cross Sell Prediction</h2>
+<p><b>IDE:</b> Jupyter</p>
+<p><b>Packages:</b></p>
+<p>Pandas, hdfs, pyspark, matplotlib, seaborn, simplejson, numpy, sklearn, imblearn, timeit, xgboost, keras, tensorflow</p>
